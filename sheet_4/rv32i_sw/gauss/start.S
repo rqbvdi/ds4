@@ -8,6 +8,9 @@ _start:
     // in register x10 and place it into register x10 when finished.
 
     // puts your code below this line, do not modify code above
+    addi x11, x10, 1     // x11 = x10 + 1
+    mul  x10, x10, x11   // x10 = x10 * (x10 + 1)
+    srai x10, x10, 1     // x10 = x10 / 2 (arithmetisch)
     // put your code above this line, do not modify code below
 
     // print "----> "
