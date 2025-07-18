@@ -1,0 +1,12 @@
+build/*.o
+build/*.stamp
+build/tb_*
+build/*.cf
+.vscode
+build/*.aux
+build/*.pdf
+build/*.log
+build/*.tex
+build/*.fls
+bin/gen_tests
+*.vcd

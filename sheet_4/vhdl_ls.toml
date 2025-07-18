@@ -1,0 +1,14 @@
+[libraries]
+work.files = [
+	'src/cpu_constants_pkg.vhd',
+	'src/alu_pkg.vhd',
+	'src/alu_bit_functions_pkg.vhd',
+    'src/alu.vhd',
+    'src/bit_full_add_pkg.vhd',
+    'src/program_counter.vhd',
+    'src/immediate_ext.vhd',
+    'src/register_file.vhd',
+    'src/memory.vhd',
+    'src/control_unit.vhd',
+    'src/cpu.vhd'
+]
